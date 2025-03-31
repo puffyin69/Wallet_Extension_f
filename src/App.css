@@ -1,0 +1,10 @@
+.body {
+  margin: 0;
+  padding-top: 70px;
+  overflow-x: hidden;
+   /* hides horizntal scrolling */
+}
+.content {
+  padding: 20px;
+  background-color: rgb(212, 188, 235);
+}

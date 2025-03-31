@@ -1,0 +1,11 @@
+"navbar-dark bg-dark shadow"- Dark navbar with dark background
+"navbar-light bg-transparent"- Light navbar with a transparent background
+"container-fluid"- 100% width container
+"navbar-brand"- to style logo or brand name
+"navbar-toggler"- to toggle show/hide
+data-bs-toggle="collapse"- 
+data-bs-target="#navbarNav"- 
+
+"transform: translateY(0);"- No vertical movement (element stays in its original position)
+transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;- change bgcolor and shadow effect  on 0.3sec and smoothly
+        UPTO NAVBAR CSS- .features-panel,.support-panel

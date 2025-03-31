@@ -1,0 +1,38 @@
+.navbar {
+    z-index: 1050;
+    /*Smooth Transition*/
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-animated {
+    transition: transform 0.2s ease-in-out;
+}
+/*Button Hover*/
+.btn-animated:hover {
+    transform: scale(1.1);
+}
+
+.features-panel,
+.support-panel {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background:rgb(92, 127, 242);
+    border: 3px solid #182a3f;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.features-panel.show,
+.support-panel.show {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}

@@ -1,0 +1,12 @@
+.head {
+    max-width: 600px; 
+    width: 90%; 
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    margin: 0 auto; /* Centers the element */
+    padding: 20px; 
+}

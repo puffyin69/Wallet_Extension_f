@@ -1,0 +1,35 @@
+.hero-section {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    margin-top: 0;
+    border-radius: 20px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+    margin: 10px;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
